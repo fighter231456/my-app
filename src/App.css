@@ -1,0 +1,131 @@
+:root{
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontside-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+nav{
+  padding: 60px 30px 0px 30px;
+  flex: var(--sidebar-flex);
+  background-color: black;
+}
+
+nav ul{
+  font-size: var(--fontside-nav);
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 40px;
+}
+
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.condiv {
+  padding: 100px;
+  background-color: white;
+  flex: var(--condiv-flex);
+
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 350px;
+  margin: 30px;
+}
+
+.social {
+  position: fixed;
+  margin-top: 20px;
+  display: flex;
+  bottom: 0;
+}
+
+.social i {
+  padding-right: 50px;
+  font-size: 25px;
+  color: #9a9b9c;
+
+}
+
+.social i:hover {
+  color: #333;
+}
+
+.typingeffect {
+  font-size: var(--typing-font);
+  margin-bottom: 0px;
+  
+}
+
+.about {
+  text-align: center;
+}
+
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+
+h1,h2,h3,h4 {
+  margin: 10px;
+}
+
+p {
+  font-size: var(--fontside-p);
+}
+
+.widecard{
+  display: flex;
+  margin: 30px 0px 30px 0px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: .5rem;
+
+}
+
+.widecard:hover {
+  color: purple;
+  background: black;
+  box-shadow: 3px 3px 10px black;
+}
+
+.skills ul{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+
+}
+
+.skills ul li{
+  list-style: none;
+  margin: 30px;
+}
+
+.active {
+  font-weight: bolder;
+}
