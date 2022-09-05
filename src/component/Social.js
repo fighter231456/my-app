@@ -8,6 +8,7 @@ class Social extends Component {
                 <a href="https://github.com/fighter231456" target="_blank" rel="noopender noreferrer"><i class="fab fa-github"></i></a>
                 <a href="https://www.instagram.com/fi_g_ht/" target="_blank" rel="noopender noreferrer"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/prasopporn.thornsungnern/" target="_blank" rel="noopender noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://line.me/ti/p/rhvlOd-RcB" target="_blank" rel="noopender noreferrer"><i class="fab fa-line"></i></a>
 
              </div>
         );

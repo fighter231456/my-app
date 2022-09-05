@@ -14,11 +14,11 @@ class Skills extends Component {
         return (
              <div className='condiv skills'>
                 <h1 className="subtopic">My Skills</h1>
-                <ul>
+                <ul1>
                     {this.state.myskills.map((value) =>{
                         return <li>{value}</li>
                     })}
-                </ul>
+                </ul1>
              </div>
         );
     }
