@@ -12,7 +12,8 @@ import About from './content/About';
 import Education from './content/Education';
 import Skills from './content/Skills';
 import Contact from './content/Contract';
-
+import Work from './content/Work';
+import Projects from './content/Projects';
 function App() {
   return (
     
@@ -22,7 +23,9 @@ function App() {
         <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
-        <Route path='/education' element={<Education/>}/>     
+        <Route path='/education' element={<Education/>}/>   
+        <Route path='/workexperience' element={<Work/>} />
+        <Route path='/projects' element={<Projects/>}/>
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/contact' element={<Contact/>}/>
         </Routes>
